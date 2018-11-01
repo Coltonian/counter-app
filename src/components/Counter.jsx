@@ -30,7 +30,7 @@ class Counter extends Component {
 
     render() { 
         return (
-            <div>
+            <div className="Coltonian">
                 {/* {this.props.children} */}
                 <button onClick={this.handleIncrement} className="btn btn-secondary btn-sm m-2">(+)</button>
                 <button onClick={this.handleDecrement} className="btn btn-secondary btn-sm m-2">(-)</button>
